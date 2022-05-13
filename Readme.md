@@ -1,4 +1,5 @@
-Old Django
+Old Django. Yes, we are following
+https://docs.djangoproject.com/en/1.8/intro/tutorial01/
 
 
 ```
