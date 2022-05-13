@@ -1,0 +1,11 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} |
+<h1 id="site-name"><a href="{% url 'admin:index' %}">My crazy admin page header</a></h1>
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">My crazy admin</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
