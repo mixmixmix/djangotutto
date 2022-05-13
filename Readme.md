@@ -14,4 +14,14 @@ pip install -r requirements.txt
 
 What we used:
 `django-admin startproject tuttomio` - to create directories
+
 `python manage.py migrate` - to create db based on model
+
+add an app to the project
+`python manage.py startapp polls`
+add the app in settings
+`python manage.py makemigrations polls`
+`python manage.py sqlmigrate polls 0001`
+
+and rerun
+`python manage.py migrate`
